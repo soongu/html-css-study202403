@@ -47,13 +47,14 @@ body {
 #wrapper .container {
   background: #ccc;
   width: 100%;
+  position: relative;
 }
 
 #wrapper .container .menu {
   /* border: 3px solid blue; */
   width: 20%;
-  float: left;
-  /* position: absolute; */
+  /* float: left; */
+  position: absolute;
   padding: 20px;
 }
 
@@ -69,9 +70,9 @@ body {
 #wrapper .container .content {
   width: 80%;
   /* border: 3px solid yellow; */
-  float: left;
-  /* position: relative;
-  left: 20%; */
+  /* float: left; */
+  position: relative;
+  left: 20%;
   background: #fff;
 }
 #wrapper .container .content h2 {
